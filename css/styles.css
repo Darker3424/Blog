@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.heroe{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.container{
+    margin: auto;
+    margin-top: 3%;
+    height: 60%;
+    width: 40%;
+    background-color: white;
+    border: 2px solid;
+}
+.front{
+    height: 96%;
+    width: 92%;
+    display: block;
+    margin-top: 2%;
+    margin-left: 4%;
+    background-color: whitesmoke;
+}
