@@ -1,0 +1,40 @@
+body
+{
+    background-color: white;
+}
+*{
+    margin: 0%;
+}
+.container{
+    display: block;
+    position: absolute;
+    height: 15cm;
+    width: 16.13cm;
+    background-color: whitesmoke;
+    border: 2px solid black;
+}
+
+.front{
+    display: grid;
+    position: fixed;
+    height: 20%;
+    width: 17%;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.asd1{
+        justify-content: flex-start;
+        right: 52%;
+}
+.asd2{
+        justify-content: space-between;
+        top: 42%;
+}
+.asd3{
+    align-items: flex-end;
+    right: 52%;
+}
+.asd4{
+    align-items: ;
+}

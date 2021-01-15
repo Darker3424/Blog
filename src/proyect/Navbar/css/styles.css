@@ -1,0 +1,28 @@
+.waifu{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/thumb.jpg);
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+}
+.list{
+    height: 1.7cm;
+    width: 4cm;
+    background-color: rgba(1, 1, 1, 0.6);
+    display: inline-block;
+    color: white;
+    font: 35px Mv boli;
+    text-align: center;
+    cursor: pointer;
+}
+.list:hover{
+    background-color: rgba(1, 1, 1, 0.9);
+    transition: all 444ms;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
