@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+}
+body{
+    background-color: #2D3440;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #191919;
+    height: 10cm;
+    width: 10cm;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    margin-top: 55px;
+    color: white;
+    text-align: center;
+}
+
+.Username{
+    background-color: #191919;
+    border: #3742fa 2px solid;
+    height: 1.5cm;
+    width: 6cm;
+    border-radius: 1cm;
+    text-align: center;
+    color: white;
+}
+
+.Password{
+    background-color: #191919;
+    border: #3742fa 2px solid;
+    height: 1.5cm;
+    width: 6cm;
+    border-radius: 1cm;
+    text-align: center;
+    color: white;
+    margin-top: 24px;
+}
+
+.Login{
+    margin-top: 24px;
+    background-color: #5352ed;
+    height: 1.5cm;
+    width: 4cm;
+    border-radius: 1cm;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.Password:hover{
+    border: 2px solid rgba(255, 255, 255);
+    transition: all 888ms; 
+    width: 8cm;
+}
+
+.Username:hover{
+    border: 2px solid rgba(255, 255, 255);
+    transition: all 888ms; 
+    width: 8cm;
+}
+.Login:hover{
+    background-color: #4141c7de;
+    transition: all 444ms;
+}
