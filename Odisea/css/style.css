@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body, html {
+    height: 100%;    
+}
+
+.fondo{
+    position: absolute;
+    background-image: url(../img/ZVVBRAR.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.247);
+    height: 12cm;
+    width: 15cm;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 19%;
+    position: absolute;
+    border-radius: 55%;
+    display: block;
+    top:
+}
+
+.Username{
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+}
+
+.Password{
+    background-color: rgba(255, 255, 255, 0.6);
+}
