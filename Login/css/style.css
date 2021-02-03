@@ -54,13 +54,13 @@ body{
     border: none;
 }
 
-.Password:hover{
+.Password:focus{
     border: 2px solid rgba(255, 255, 255);
     transition: all 888ms; 
     width: 8cm;
 }
 
-.Username:hover{
+.Username:focus{
     border: 2px solid rgba(255, 255, 255);
     transition: all 888ms; 
     width: 8cm;
@@ -68,4 +68,8 @@ body{
 .Login:hover{
     background-color: #4141c7de;
     transition: all 444ms;
+}
+
+*{    
+    outline: none; 
 }

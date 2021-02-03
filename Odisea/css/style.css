@@ -25,21 +25,58 @@ body, html {
     width: 15cm;
     display: flex;
     justify-content: center;
+    color: white;
+    font-family: "Comic Sans MS";
 }
 
+.container-input{
+    display: flex;
+    height: 13%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 5px solid rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.container-icon{
+    display: flex;
+    height: 100%;
+    width: 10%;
+    background-color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+    justify-items: center;
+}
+
+.icon{
+    height: 100%;
+}
+
+.asd{
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .logo{
     height: 19%;
     position: absolute;
     border-radius: 55%;
+    border: white solid 6px;
     display: block;
-    top:
+    top: 15%;
 }
 
 .Username{
-    background-color: rgba(255, 255, 255, 0.6);
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 100%;
+    width: 90%;
+    margin-bottom: 5%;
+    outline: none;
+    border: none;
 }
 
-.Password{
-    background-color: rgba(255, 255, 255, 0.6);
+.subject{
+    
 }
