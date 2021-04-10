@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body, html{
+height: 100%;
+}
+
+.fondo{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    height: 1cm;
+    width: 100cm;
+    background-color: blanchedalmond;
+}
+
+.list{
+    height: 1cm;
+    width: 3cm;
+    background-color: rgba(1, 1, 1, 0.6);
+    display: inline-block;
+    color: white;
+    font: 24px Mv boli;
+    text-align: center;
+    cursor: pointer;
+}
+
+.name{
+    color: black;
+    font: 24px Mv boli;
+    display: inline-flex;
+}
+
+.list:hover{
+    background-color: rgba(1, 1, 1, 0.9);
+    transition: all 444ms;
+}
+
+.tagline{
+    background-color: rgba(0, 0, 0, 0.247);
+    height: 12cm;
+    width: 15cm;
+    display: flex;
+    justify-content: center;
+    color: rgb(185, 248, 211);
+    font-family: "Comic Sans MS";
+}

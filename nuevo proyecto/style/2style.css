@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 657px;
+    background-image: url(../img/view-of-lake-and-snowy-mountains-free-photo.jpeg);
+}
+
+nav{
+    text-align: right;
+}
+
+nav > a{
+    height: 1cm;
+    width: 3cm;
+    background-color: rgba(1, 1, 1, 0.6);
+    color: white;
+    font: 24px Mv boli;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: rgba(1, 1, 1, 0.9);
+    transition: all 444ms;
+}
+
+.Textos-Header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Textos-Header h1{
+    font-size: 50px;
+    color: black;
+}
