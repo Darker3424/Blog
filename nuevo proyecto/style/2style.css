@@ -3,10 +3,17 @@
     padding: 0;
 }
 
+.fondo{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/view-of-lake-and-snowy-mountains-free-photo.jpeg);
+}
+
 header{
     width: 100%;
     height: 657px;
-    background-image: url(../img/view-of-lake-and-snowy-mountains-free-photo.jpeg);
+   
 }
 
 nav{
